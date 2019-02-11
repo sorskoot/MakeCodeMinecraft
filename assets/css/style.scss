@@ -2,3 +2,9 @@
 ---
 
 @import "{{ site.theme }}";
+
+body {
+    background: #151515 url(../images/minecraft-2053882_1280.jpg) 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
