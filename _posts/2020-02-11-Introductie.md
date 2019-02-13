@@ -3,14 +3,14 @@ layout: post
 color: deep-purple
 title:  "Introductie"
 date:   2019-02-11 10:43:00am
-excerpt_separator: <!--more-->
+
+excerpt: Dit is de allereeste post over deze nieuwe site. Ben benieuws of dit over meerdere regels mag?
 ---
 
 # Welcome
 
 Dit is de allereeste post over deze nieuwe site.
 
-<!--more-->
 
 ### Code snippet
 
