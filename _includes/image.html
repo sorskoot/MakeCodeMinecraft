@@ -1,0 +1,9 @@
+<figure>
+    <a href="{{ include.src }}" target="_blank">
+    <img src="{{ include.src }}"
+       alt="{{ include.title }}"/>
+    </a>
+    {% if include.caption %}
+    <figcaption>{{ include.caption }}</figcaption>
+    {% endif %}
+ </figure>

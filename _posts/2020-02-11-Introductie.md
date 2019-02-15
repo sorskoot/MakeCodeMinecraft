@@ -1,29 +1,14 @@
 ---
 layout: post
-color: deep-purple
 title:  "Introductie"
-date:   2019-02-11 10:43:00am
-
-excerpt: Dit is de allereeste post over deze nieuwe site. Ben benieuws of dit over meerdere regels mag?
+date:   2019-02-14 10:43:00am
+excerpt: Hoi 🖐. Nieuwe site. Wat gaat er komen?
 ---
 
-# Welcome
+# Hoi 🖐
 
-Dit is de allereeste post over deze nieuwe site.
+Welkom op mijn nieuwe website. Op deze site komen vooral blogs over programmeren. En ik wil helemaal bij het begin beginnen. Dus kun je nog niet programmeren, maar wil je het wel leren? Nou, dan ben je hier op de juiste plek.
 
+Ik wil dit in het begin vooral gaan doen met [Microsoft MakeCode voor Minecraft](https://minecraft.makecode.com){:target="_blank"}. Je kunt tutorials bekijken op mijn [YouTube Kanaal](https://www.youtube.com/channel/UCayeDJg8BIIKvTdiv6Hx4zQ){:target="_blank"}. 
 
-### Code snippet
-
-{% highlight javascript %}
-if __name__ =='__main__':
-    img_thread = threading.Thread(target=downloadWallpaper)
-    img_thread.start()
-    st = '\rDownloading Image'
-    current = 1
-    while img_thread.is_alive():
-        sys.stdout.write(st+'.'*((current)%5))
-        current=current+1
-        time.sleep(0.3)
-    img_thread.join()
-    print('\nImage of the day downloaded.')
-{% endhighlight %}
+{% include image.html src="/assets/post_img/Minecraft_ingame01.png" title="Minecraft Ingame." %}
