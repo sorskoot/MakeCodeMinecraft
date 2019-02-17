@@ -8,6 +8,8 @@
 $accent: #ffd154; //#b5e853 in original theme;
 $text :#eaeaea;
 $back :rgb(25, 55, 66);
+
+  
 body {
     background: $back url(../images/background.png) 0 0;
     background-repeat: no-repeat;
@@ -98,3 +100,10 @@ article{
         }
     }
 }
+
+  footer{
+    border-top-color: $accent;
+    background-color: transparentize($back , 0.9);
+    height: 50px;
+  }
+  

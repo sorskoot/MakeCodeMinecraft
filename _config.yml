@@ -10,7 +10,19 @@ plugins:
 baseurl: ""
 paginate: 5
 paginate_path: "page:num"
-
+lang: nl
+social:
+  name: Sorskoot
+  links:
+    - https://twitter.com/Sorskoot
+    - https://www.linkedin.com/in/TimmyKokke
+    - https://aboutme.google.com/b/104315803956337916111/
+    - https://github.com/sorskoot
+    - https://www.youtube.com/channel/UCayeDJg8BIIKvTdiv6Hx4zQ/
+twitter:
+  username: sorskoot
+  card: summary
+  
 # Build settings
 sass:
   sass_dir: _sass
