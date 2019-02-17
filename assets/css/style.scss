@@ -67,7 +67,6 @@ a {
     color:$accent;
     text-shadow: 0 0 5px transparentize($accent, 0.8);
     text-decoration: none;
-  
 }
 article{
     margin-top:4em;
@@ -87,4 +86,15 @@ article{
 
 .paginator{
     margin-top:2em;
+}
+
+.post-figure{
+    display:flex;
+    justify-content: center;
+    .post-figure-image{
+        box-shadow: #0000002e 0 0 20px 0px;
+        &.no-shadow{
+            box-shadow:none;
+        }
+    }
 }

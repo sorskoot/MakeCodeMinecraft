@@ -1,6 +1,6 @@
-<figure>
-    <a href="{{ include.src }}" target="_blank">
-    <img src="{{ include.src }}"
+<figure class="post-figure">
+    <a href="{{ include.src }}" target="_blank" class="post-figure-link">
+    <img src="{{ include.src }}" class="post-figure-image {% if include.noshadow %}no-shadow{% endif %}"
        alt="{{ include.title }}"/>
     </a>
     {% if include.caption %}
