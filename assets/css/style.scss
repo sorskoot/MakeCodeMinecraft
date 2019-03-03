@@ -101,7 +101,7 @@ article {
     justify-content: center;
 
     .post-figure-image {
-        box-shadow: #0000002e 0 0 20px 0px;
+        box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
 
         &.no-shadow {
             box-shadow: none;
