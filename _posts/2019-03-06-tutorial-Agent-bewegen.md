@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "De agent laten bewegen"
-date:   2019-03-03 10:35:00am
+date:   2019-03-06 10:35:00am
 excerpt:  Hoe kun je de agent commando's geven om te bewegen?
 ---
 # Agent
